@@ -17,7 +17,7 @@ class AppBarIcon extends StatelessWidget {
       margin: const EdgeInsets.all(2),
       decoration: const BoxDecoration(
         shape: BoxShape.circle,
-        color: Color.fromARGB(118, 158, 158, 158),
+        color: Color.fromARGB(55, 158, 158, 158),
       ),
       child: IconButton(
         onPressed: buttonAction,

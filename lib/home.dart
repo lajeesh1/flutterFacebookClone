@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/sections/header_button_section.dart';
 
 import 'package:flutter_application_1/sections/status_section.dart';
 import 'package:flutter_application_1/widgets/appBarIcon.dart';
@@ -30,7 +31,18 @@ class Home extends StatelessWidget {
         ],
       ),
       body: ListView(
-        children: [StatusSection()],
+        children: [
+          StatusSection(),
+          Divider(
+            thickness: 1,
+            color: Colors.grey[300],
+          ),
+          HeaderButtonSection(),
+          Divider(
+            thickness: 10,
+            color: Colors.grey[300],
+          )
+        ],
       ),
     );
   }
